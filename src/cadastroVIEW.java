@@ -161,7 +161,8 @@ public class cadastroVIEW extends javax.swing.JFrame {
         // (opcional) limpar campos
         cadastroNome.setText("");
         cadastroValor.setText("");
-
+        cadastroNome.setText("");
+        
         //mesnagem de erro
     } catch (Exception e) {
         javax.swing.JOptionPane.showMessageDialog(null, "Erro ao cadastrar: " + e.getMessage());
