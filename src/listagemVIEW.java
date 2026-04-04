@@ -138,14 +138,15 @@ public class listagemVIEW extends javax.swing.JFrame {
     private void btnVenderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVenderActionPerformed
          try {
         String id = id_produto_venda.getText();
-
+        
         ProdutosDAO produtosdao = new ProdutosDAO();
         produtosdao.venderProduto(Integer.parseInt(id));
 
         javax.swing.JOptionPane.showMessageDialog(null, "Produto vendido com sucesso!");
 
         listarProdutos(); // atualiza tabela
-
+        id_produto_venda.setText("");
+        
     } catch (Exception e) {
         javax.swing.JOptionPane.showMessageDialog(null, "Erro ao vender: " + e.getMessage());
     }
