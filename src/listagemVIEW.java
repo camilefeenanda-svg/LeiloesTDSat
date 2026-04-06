@@ -149,7 +149,7 @@ public class listagemVIEW extends javax.swing.JFrame {
         
     } catch (Exception e) {
         javax.swing.JOptionPane.showMessageDialog(null, "Erro ao vender: " + e.getMessage());
-    }
+    } //implementando o botao vender 
     }//GEN-LAST:event_btnVenderActionPerformed
 
     private void btnVendasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVendasActionPerformed
