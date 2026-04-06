@@ -173,7 +173,7 @@ public class listagemVIEW extends javax.swing.JFrame {
     } catch (Exception e) {
         javax.swing.JOptionPane.showMessageDialog(null, "Erro: " + e.getMessage());
     }
-
+// filtro para listar apenas produtos vendidos
     }//GEN-LAST:event_btnVendasActionPerformed
 
     private void btnVoltarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVoltarActionPerformed
@@ -250,3 +250,4 @@ public class listagemVIEW extends javax.swing.JFrame {
     
     }
 }
+//listar produtos vendidos
